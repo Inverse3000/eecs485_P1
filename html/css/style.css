@@ -1,0 +1,44 @@
+.logo{
+    margin-top: 5%;
+    margin-left: 5%;
+    color: red;
+    font-size:large;
+}
+.user{
+    display: inline-block;
+}
+.explore{
+    display: inline-block;
+}
+.parent{
+    margin-left:70%;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+.vertical-line{
+    display: inline-block;
+    border-left: 1px solid;
+    height: 10px;
+}
+.post{
+    width : 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 3px solid;
+}
+.block{
+    position: relative;
+}
+.block .overlay{
+    position: absolute;
+}
+.block .inner{
+    position: relative;
+    pointer-events: none;
+    z-index: 1;
+}
+.block .inner a {
+    pointer-events: all;
+}
